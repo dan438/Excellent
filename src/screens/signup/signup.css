@@ -1,0 +1,169 @@
+.bg {
+  background: url("../../asset/images/bg.svg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_div {
+  display: flex;
+  align-items: center;
+}
+
+.logo_text {
+  color: #f9fafb;
+  font-weight: 700;
+  font-size: 38px;
+  font-family: "SF Pro Display";
+  margin-left: 1rem;
+}
+
+.form_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_title {
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Inter", sans-serif;
+  color: #2e2c34;
+  font-weight: 600;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: #f5f7fa;
+  border-bottom: 1px solid #00ac9f;
+}
+
+.form_forget {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00ac9f;
+}
+
+.signup .form_button button {
+  background: #00ac9f;
+  border-radius: 4px !important;
+  border: 0;
+  outline: 0;
+  color: #fbfafc;
+  font-family: "Inter", sans-serif;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.form_div_inner {
+  width: 50%;
+}
+
+label {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #84818a;
+  margin-bottom: 0;
+}
+
+.form_div_inner p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2e2c34;
+}
+
+.form_div_inner p span {
+  color: #cc9933;
+}
+
+.footer_text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #84818a;
+}
+
+.footer_text a {
+  color: #cc9933;
+}
+
+.form_input img {
+  width: 15px;
+  position: absolute;
+  right: 0;
+  bottom: 35px;
+}
+
+.form_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_name div {
+  width: 45%;
+}
+
+.form_checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form_checkbox p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #84818a;
+}
+
+.form_checkbox p span {
+  color: #00ac9f;
+}
+
+input[type="checkbox"] {
+  accent-color: #00ac9f;
+}
+
+input:checked {
+  background: #00ac9f;
+}
+
+@media screen and (max-width: 991px) {
+  .signup .form_div_inner {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  .bg {
+    display: none;
+  }
+
+  .form_div_inner {
+    width: 90%;
+    padding-top: 1rem;
+  }
+}

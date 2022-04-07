@@ -1,0 +1,30 @@
+.statement_select {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+select {
+  padding: 0.4rem;
+}
+
+.statement_content {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  height: 60vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.statement_content_inner {
+  margin: auto auto;
+}
+
+.statement_content_inner p {
+  font-size: 14px;
+  font-weight: 600;
+}
